@@ -34,3 +34,83 @@ console.log(x);
 console.log(y);
 console.log(typeof x);
 console.log(typeof y);
+
+// conditions in Javascript
+// If statement
+// definition of if statement
+let condition = true;
+let condition1 = false;
+let condition2 = false;
+let condition3 = true;
+if (condition) {
+    // code to be executed if condition is true
+}
+
+// if-else statement
+// definition of if-else statement
+if (condition){
+    // code to be executed if condition is true
+} else{
+    // code to be executed if condition is false
+}
+
+// else-if statement
+// definition of else-if statement
+if (condition1) {
+     // code to be executed if condition1 is true
+} else if (condition2) {
+    // code to be executed if condition2 is true
+}
+
+
+// Practice examples
+let mark = 75;
+if(mark > 69) {
+    console.log("Very good, you have passed the exam")
+}
+
+if (mark >= 70){
+    console.log("you have passed the exam")
+} else{
+    console.log("you have failed the exam")
+}
+
+// Comparison Operators
+// 1. Equal to (=)
+// Example of Equal to Operator
+if (name= "John") // This will assign "John" to name and always evaluate
+// 2. Equal to (==)
+// 3. Not equal to (!=)
+// 4. Strict equal to (===)
+// 5. strict not equal to (!==)
+// 5. Greater than (>)
+// 6. Less than(<)
+// 7. Greater than or equal to (>=)
+// 8. Less than or equal to (<=)
+
+// Arrays
+["Volvo", "Benz", "Toyota"]
+[1, 2, 3, 4, 5]
+//["Vision", 25, "Uganda", true, null, undefined,]
+let cars = ["volvo", "Benz", "Toyota"];
+console.log(cars);
+console.log(cars[2]);
+
+//Objects
+{}// an empty object
+
+let person = {
+    name: "Linda",
+    age: 30,
+    district: "kampala",
+    isStudent: true,
+    hobbies: ["codding", "travelling"],
+    address: {
+        street: "123 Main St",
+        city: "kampala",
+        country: "Uganda"
+    }
+}
+console.log(person);
+console.log(person["name"]); // Accessng for new property
+console.log(person.hobbies);// Accessing the second hobby
